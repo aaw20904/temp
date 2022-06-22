@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="app.webmanifest">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    <title>Document</title>
+    <style>
+        .myspinner{
+            top:50%;
+            left:50%;
+        }
+        .hideElem{
+            display: none !important;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container p-2">
+        <div class="spinner-border position-fixed myspinner hideElem" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        <div class="h2 text-success text-center w-100">HelloWord</div>
+        <img class="img-thumbnail" srcset="plane320.jpg 320w,
+                    plane640.jpg 640w,
+                    plane1280.jpg 1280w"
+            sizes="(max-width: 320px) 320px,
+            (min-width:320px) and (max-width: 640px) 640px,
+            (min-width: 640px) 1280px"
+            src="plane320.jpg" alt="Air-2">
+        <button class="btn btn-primary m-2" type="button">GEt info</button>
+        <p class="m-2 p-1 borfer border-primary textstring">*</p>
+    </div>    
+    <script src="index.js"></script>
+</body>
+</html>

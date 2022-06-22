@@ -1,0 +1,16 @@
+{
+    "short_name": "MyApp",
+    "name": "my app",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "16x16",
+            "type": "image/x-icon"
+        }
+        
+    ],
+        "start_url": "/index.html?source=pwa",
+        "display": "standalone",
+        "background_color": "#FFFFFF",
+        "theme_color": "#3653B3"
+    }
