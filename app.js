@@ -56,8 +56,7 @@ app.use(express.static('public'));
 
 app.listen(80,()=>{console.log('listen on port 80..')})
 
-/*let server = https.createServer(app,options);
-server.listen(443,()=>{console.log('listen opn port 443....')});*/
+https.createServer(app,options).listen(443,()=>{console.log('listen opn port 443....')}); 
 
 
 
